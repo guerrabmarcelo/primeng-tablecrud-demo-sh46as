@@ -23,9 +23,13 @@ import { Person } from './person.model';
 export class AppComponent {
   productDialog: boolean;
 
+  personDialog: boolean;
+
   products: Product[];
 
   persons: Person[];
+
+  person: Person;
 
   product: Product;
 
@@ -49,7 +53,7 @@ export class AppComponent {
   }
 
   openNew() {
-    this.product = {};
+    this.person = {};
     this.submitted = false;
     this.productDialog = true;
   }
@@ -74,9 +78,11 @@ export class AppComponent {
     });
   }
 
-  editProduct(product: Product) {
-    this.product = { ...product };
-    this.productDialog = true;
+  editPerson(person: Person) {
+    this.person = { ...person };
+    this.person.born = new Date(this.person.born);
+    console.log(this.person.born);
+    this.personDialog = true;
   }
 
   deleteProduct(product: Product) {

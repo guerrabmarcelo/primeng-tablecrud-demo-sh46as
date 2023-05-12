@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Marcelo Guerra",
-      "born": "12/09/1999",
+      "born": "1999-09-12",
       "gender": "m",
       "height": 1.73,
       "weight": 90,
@@ -13,7 +13,7 @@
     {
       "id": "2",
       "name": "Thalita Brasileiro",
-      "born": "28/09/1998",
+      "born": "1998-09-28",
       "gender": "f",
       "height": 1.65,
       "weight": 55,
@@ -23,7 +23,7 @@
     {
       "id": "3",
       "name": "Matheus Guerra",
-      "born": "03/09/1996",
+      "born": "1996-09-03",
       "gender": "m",
       "height": 1.7,
       "weight": 70,
